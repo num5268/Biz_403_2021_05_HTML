@@ -150,3 +150,4 @@ console.log(isNaN("A")); // 문자면 true
 
 // 값 비교가 아니고 type 비교 이므로 false
 console.log("A" == NaN); // false
+document.querySelector().addEventListener;
