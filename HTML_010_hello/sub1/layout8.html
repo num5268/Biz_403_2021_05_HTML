@@ -7,10 +7,11 @@
     <title></title>
     <style>
       table {
-        border: 1px solid rgb(57, 255, 146);
-        /* table collapse를 separate로 설정하고
+        border: 1px solid green;
+        /* 
+        table collapse를 separate로 설정하고
         spacing을 설정하면
-        표의 cell과 cell의 간격을 설정할수 있다
+        표의 cell 과 cell의 간격을 설정할수 있다
         */
         border-collapse: separate;
         border-spacing: 5px;
@@ -20,7 +21,7 @@
 
       th,
       td {
-        border: 1px solid rgb(167, 167, 248);
+        border: 1px solid blue;
       }
     </style>
   </head>
@@ -48,21 +49,21 @@
           <td>001</td>
           <td>홍길동</td>
           <td>서울시</td>
-          <td>101-135-3435</td>
+          <td>010-111-1111</td>
         </tr>
-
         <tr>
           <td>002</td>
           <td>성춘향</td>
           <td>남원시</td>
-          <td>010-1351-2385</td>
+          <td>010-222-2222</td>
         </tr>
       </tbody>
     </table>
+
     <h3>웹접근성과 table</h3>
     <p>table thead 영역의 tag에 scope 지정</p>
-    <p>scope="col" scope="row" 를 지정할수 있다</p>
-    <p>scope="col" 위에서 아래로 읽기</p>
-    <p>scope="row" 왼쪽에서 오른쪽으로 읽기</p>
+    <p>scope="col", score="row"를 지정할수 있다</p>
+    <p>score="col" 위에서 아래로 읽기</p>
+    <p>score="row" 왼쪽에서 오른쪽으로 읽기</p>
   </body>
 </html>

@@ -8,23 +8,28 @@
     <style>
       /*
         display : flex로 설정을 하면
-        이 박스가 감싸는 요소는 inline-flex로 
+        이 박스가 감싸는 요소는 inline-flex 로
         자동 설정이 된다
         flex Box로 설정된 요소들은
         자연스럽게 width에 따라 가로 방향으로 배치된다
 
-        display : flex로 설정된 article은
-        flex container라고 한다.
+        display : flex 로 설정된 article은
+        flex container 라고 한다.
+
         */
       article {
         display: flex;
-        /* 화면에 크기에 따라 요소들이 자동 줄바꿈 */
+        /* 
+        화면에 크기에 따라 요소들이 
+        자동 줄바꿈 
+        */
         flex-wrap: nowrap;
         flex-wrap: wrap;
       }
+
       div {
         width: 100px;
-        border: 1px solid rgb(255, 111, 111);
+        border: 1px solid red;
         margin: 5px;
         padding: 2rem;
       }
